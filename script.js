@@ -76,7 +76,7 @@ function toggleForm() {
     if (document.querySelector("#planForm").style.display == "") {
         document.querySelector("#planForm").style.display = "block";
     } else {
-        document.querySelector("#planForm").style.display != "none"
+        document.querySelector("#planForm").style.display = "none"
     }
 }
 
