@@ -73,7 +73,7 @@ async function generatePlan() {
 }
 
 function toggleForm() {
-    if (document.querySelector("#planForm").style.display == "") {
+    if (document.querySelector("#planForm").style.display != "block") {
         document.querySelector("#planForm").style.display = "block";
     } else {
         document.querySelector("#planForm").style.display = "none"
